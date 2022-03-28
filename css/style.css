@@ -1,0 +1,67 @@
+/* 
+MUDANDO O PLANO DE FUNDO
+backround-color
+background-image: url('img.gif')
+background-repeat
+background-attachent
+background-position
+*/
+
+/* CORES PODEM SER DEFINIDAS COMO:
+Hexadecimal:: #ff000
+RGB: RGB (255,0,0)
+Nomes de cores: Red
+*/
+
+/*----CORPO DA PAGINA---*/
+
+body{background-color: 	#363636;}
+
+table, th, td {
+  
+  border: 1px solid rgb(199, 237, 238);
+  padding-top: 5px;
+  
+}
+
+
+/*---MENU*/
+
+.menu
+{background-color:#c2341b ;
+height:25px;
+padding: 10px;
+
+}
+
+.menu ul
+{
+list-style: none; /*removendo os ícones da lista*/
+margin: 0; /*posicionando a lista rente a faixa do menu (acima)*/
+padding: 0;/*Espaçamento entre lista e margem da esquerda*/
+
+
+}
+.menu ul li
+
+{
+float: left;
+
+
+}
+.menu ul li a
+
+{
+  padding: 10px;
+  font-family:  'Arial Narrow';
+  font-size: 12px;
+  font-weight: bold;
+  text-decoration: none; /*Retirar Sublinhado*/
+  text-transform: uppercase;
+}
+
+.menu ul li a:hover
+{
+  background: rgb(20, 18, 26);
+
+}
