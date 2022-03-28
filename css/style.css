@@ -65,3 +65,13 @@ float: left;
   background: rgb(20, 18, 26);
 
 }
+
+/* H1*/
+h1
+{
+  font-size: 60px;
+  background-color: #c2341b;
+  color: beige;
+  text-align: center;
+  font-family: Trebuchet ;
+}
