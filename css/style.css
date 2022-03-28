@@ -17,12 +17,7 @@ Nomes de cores: Red
 
 body{background-color: 	#363636;}
 
-table, th, td {
-  
-  border: 1px solid rgb(199, 237, 238);
-  padding-top: 5px;
-  
-}
+
 
 
 /*---MENU*/
@@ -70,8 +65,44 @@ float: left;
 h1
 {
   font-size: 60px;
-  background-color: #c2341b;
-  color: beige;
+  background-color: rgb(218, 215, 215);
+  color: #c2341b;
   text-align: center;
   font-family: Trebuchet ;
+}
+
+/*tabela*/
+
+table
+{
+
+width: 80%;
+height: 400px;
+margin-left: auto;
+margin-right: auto;
+background-color: rgb(218, 215, 215);
+border-collapse: collapse;
+font-family:  'Arial Narrow';
+text-align: center;
+
+}
+table, th, td {
+  
+  border: 1px solid rgb(36, 43, 43);
+  padding-top: 5px;
+  
+  
+}
+td{
+
+  width: 25%; /*largura das colunas*/
+
+
+}
+th{
+  background-color: #BA0000;
+  font-family: 'Arial Narrow';
+  font-size: larger;
+  color: white;
+  height: 50px;
 }
