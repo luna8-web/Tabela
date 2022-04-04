@@ -12,7 +12,14 @@ Hexadecimal:: #ff000
 RGB: RGB (255,0,0)
 Nomes de cores: Red
 */
+/*FORMATAÇÃO DE TEXTOS E FONTES
+   
+   font-style: italic;/
+   font-weight:bold;
+   text.decoration: underline;
 
+
+*/
 /*----CORPO DA PAGINA---*/
 
 body{background-color: 	#363636;}
@@ -100,9 +107,38 @@ td{
 
 }
 th{
-  background-color: #BA0000;
-  font-family: 'Arial Narrow';
-  font-size: larger;
-  color: white;
-  height: 50px;
+  background-color: #BA0000;/*COR DE FUNDO*/
+  font-family: 'Arial Narrow';/*FONTE DO TÍTULO DA TABELA*/
+  font-size: large;/*TAMANHO DA FONTE DO TÍTULO DA TABELA*/
+  color: white;/*COR DA FONTE DO TÍTULO*/
+  height: 50px;/*ALTURA DA LINHA*/
+}
+
+.subtitulo{
+
+    background-color: #9c2e1b;
+    color: white;
+    font-weight: bold;
+
+
+}
+.titulo{
+    background-color: #c2341b;
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration:wavy;
+
+}
+
+.titulofilme{
+    background-color: #749963;
+    font-weight: bold;
+    font-style: italic;
+ 
+}
+
+.titulofilme2{
+    background-color: #5d7a4f;
+    font-weight: bold;
 }

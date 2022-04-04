@@ -21,31 +21,27 @@
         <li><a href="contato.html">Contato</a></li>
     </ul>
     </div>
+<div id="area">
+    <form id="formulario">
+        <fieldset>
+         
+            <legend>Formulário</legend>
+   
+        <label >Nome:</label> <input type="text" id="nomeid" placeholder="Fulano" required="required"name="nome"/> <br>
 
-    <form name="meu_form">
+        <label >Fone:</label>  <input type="tel" id="foneid" placeholder="(xx)xx-xx-xx-xx" name="fone"/> <br>
 
-        <h1>Entre em contato</h1>
+        <label>Email:</label> <input type="email" id="emailid" placeholder="fulanodotal@gmail.com" name="email"/> <br>
 
-        <label for="nome">Nome</label>
-        <input type="text" id="nomeid" placeholder="Fulano" required="required"
-        name="nome"/>
-<br>
+        <label>Mensagem:</label><br> <textarea placeholder="Deixe sua opinião" cols="30" rows="10"></textarea><br>
 
-<label for="fone">Fone</label>
-<input type="tel" id="foneid" placeholder="(xx)xx-xx-xx-xx" name="fone"
-/>
-<br>
+        <input type="submit" class="enviar" onclick="Enviar()" value="Enviar"/>
 
-<label for="fone">Email</label>
-<input type="email" id="emailid" placeholder="fulanodotal@gmail.com" name="email"
-/>
+        </fieldset>
+      </form>
+   </div>
 
-<br>
 
-<textarea placeholder="Deixe sua opinião"></textarea>
-
-<input type="submit" class="enviar" onclick="Enviar()"/>
-    </form>
- 
+   
 </body>
 </html>
